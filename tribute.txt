@@ -1,0 +1,15 @@
+
+- charp.png: https://www.pexels.com/photo/closeup-photo-of-short-coated-white-and-gray-dog-825947/
+  by: Gilberto Reyes
+
+- care.png: https://iconscout.com/illustration/veterinary-care-3697224
+  by: Наталія Нестеренко
+
+- care2.png: https://iconscout.com/illustration/pet-animal-checking-kids-dog-in-clinic-2496348
+  by: Luiza Vinnyk
+
+- care3.png: https://iconscout.com/illustration/pet-doctor-2681442
+  by: Luiza Vinnyk
+
+- care4.png: https://iconscout.com/illustration/animal-adoption-3981567
+  by: Наталія Нестеренко
