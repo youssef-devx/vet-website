@@ -118,14 +118,14 @@
               </li>
             </ul>
           </div>
-          <img
-            src="img/charp.webp"
-            alt="dog"
-            type="image/x-icon"
-            title="
-            https://www.pexels.com/photo/closeup-photo-of-short-coated-white-and-gray-dog-825947/
-            by: Gilberto Reyes"
-          />
+          <div class="image">
+            <img src="img/charp.webp" alt="dog" type="image/x-icon" />
+            <a
+              href="https://www.pexels.com/photo/closeup-photo-of-short-coated-white-and-gray-dog-825947/"
+              target="_blank"
+              >Image by: Gilberto Reyes</a
+            >
+          </div>
         </main>
       </section>
 
@@ -194,27 +194,30 @@
             </p>
           </div>
           <div class="imgs">
-            <img
-              src="img/care.png"
-              alt="animal care"
-              title="
-              https://iconscout.com/illustration/veterinary-care-3697224
-              by: Наталія Нестеренко"
-            />
-            <img
-              src="img/care2.png"
-              alt="animal care"
-              title="
-            https://iconscout.com/illustration/pet-animal-checking-kids-dog-in-clinic-2496348
-            by: Luiza Vinnyk"
-            />
-            <img
-              src="img/care3.png"
-              alt="animal care"
-              title="
-            https://iconscout.com/illustration/pet-doctor-2681442
-            by: Luiza Vinnyk"
-            />
+            <div class="image">
+              <img src="img/care.png" alt="animal care" />
+              <a
+                href="https://iconscout.com/illustration/veterinary-care-3697224"
+                target="_blank"
+                >Image by: Наталія Нестеренко</a
+              >
+            </div>
+            <div class="image">
+              <img src="img/care2.png" alt="animal care" />
+              <a
+                href="https://iconscout.com/illustration/pet-animal-checking-kids-dog-in-clinic-2496348"
+                target="_blank"
+                >Image by: Luiza Vinnyk</a
+              >
+            </div>
+            <div class="image">
+              <img src="img/care3.png" alt="animal care" />
+              <a
+                href="https://iconscout.com/illustration/pet-doctor-2681442"
+                target="_blank"
+                >Image by: Luiza Vinnyk</a
+              >
+            </div>
           </div>
         </div>
       </section>
@@ -231,11 +234,11 @@
       </section>
     </div>
     <script>
-      const ctas = [...document.querySelectorAll(".call")];
+      const ctas = [...document.querySelectorAll(".call")]
 
       ctas.forEach((cta) => {
-        cta.addEventListener("click", () => cta.classList.toggle("cta"));
-      });
+        cta.addEventListener("click", () => cta.classList.toggle("cta"))
+      })
     </script>
   </body>
 </html>
